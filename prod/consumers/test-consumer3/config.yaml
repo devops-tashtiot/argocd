@@ -1,0 +1,8 @@
+name: test-consumer3
+size: small
+include_resources:
+- ExternalSecret
+ad_admin_group: test-group
+config:
+  extra_argocd_params:
+    server.insecure: 'true'

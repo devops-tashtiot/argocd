@@ -1,0 +1,5 @@
+name: test
+size: small
+include_resources:
+- Deployment
+ad_admin_group: DEV_GROUP

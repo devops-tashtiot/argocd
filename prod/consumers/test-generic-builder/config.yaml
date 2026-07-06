@@ -1,0 +1,9 @@
+name: test-generic-builder
+size: small
+include_resources:
+- ExternalSecret
+ad_admin_group: test-group
+extra_roles:
+- g, "DEV_Mahan_Tmunat_Shamayim", role:bluetorch
+- p, role:bluetorch, applications, *, bluetorch/*, allow
+- p, role:bluetorch, exec, create, bluetorch/*, allow

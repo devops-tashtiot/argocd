@@ -1,0 +1,5 @@
+name: naticheck
+size: extraLarge
+include_resources:
+- ExternalSecret
+ad_admin_group: check

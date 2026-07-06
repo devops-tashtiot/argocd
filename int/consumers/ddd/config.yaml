@@ -1,0 +1,6 @@
+name: ddd
+size: extraLarge
+include_resources:
+- ExternalSecret
+- ConfigMap
+ad_admin_group: ddd

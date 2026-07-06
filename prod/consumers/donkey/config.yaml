@@ -1,0 +1,6 @@
+name: donkey
+size: large
+include_resources:
+- ExternalSecret
+- ConfigMap
+ad_admin_group: donkey

@@ -1,0 +1,14 @@
+name: test-rbac-builder
+size: small
+include_resources:
+- ExternalSecret
+ad_admin_group: test-group
+extra_roles:
+- g, "DEV_Mahan_Interconn", role:interconn
+- p, role:interconn, applications, *, interconn/*, allow
+- p, role:interconn, projects, get, interconn, allow
+- p, role:interconn, clusters, get, interconn/*, allow
+- p, role:interconn, repositories, get, interconn/*, allow
+- p, role:interconn, exec, create, interconn/*, allow
+- g, "DEV_Custom_Group", role:custom
+- p, role:custom, applications, get, custom/*, allow

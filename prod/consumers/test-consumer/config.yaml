@@ -1,0 +1,7 @@
+name: test-consumer
+size: small
+include_resources:
+- ExternalSecret
+ad_admin_group: test-group
+extra_roles:
+- g, some-user, role:admin
